@@ -1,6 +1,50 @@
-/* your code here */
-.footer {
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
     display: flex;
-    justify-content: space-between; /* Adjusts the space between sections */
-    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.link-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.links {
+    margin: 10px;
+}
+
+.media-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-details {
+    text-align: center;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .link-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
 }
