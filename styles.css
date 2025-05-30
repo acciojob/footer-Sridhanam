@@ -1,1 +1,6 @@
 /* your code here */
+.footer {
+    display: flex;
+    justify-content: space-between; /* Adjusts the space between sections */
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+}
